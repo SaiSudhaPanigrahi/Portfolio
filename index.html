@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Sudha Panigrahi - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background: #f9f9f9;
+        }
+        header {
+            background: linear-gradient(90deg, #0073b1, #005582);
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin: 0.5rem 0 1rem;
+        }
+        nav {
+            margin-top: 1rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+        #about img {
+            max-width: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 1rem;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        .project {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            background: #f9f9f9;
+            transition: transform 0.2s;
+        }
+        .project:hover {
+            transform: scale(1.05);
+        }
+        .project h3 {
+            margin-top: 0;
+            color: #0073b1;
+        }
+        .project a {
+            color: #005582;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        footer a {
+            color: #0073b1;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sai Sudha Panigrahi</h1>
+        <p>Software Engineer | Data Enthusiast</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <img src="https://via.placeholder.com/150" alt="Sai Sudha Panigrahi">
+        <h2>About Me</h2>
+        <p>
+            I am a Software Engineer with over three years of experience in backend development, API integration,
+            and operational efficiency optimization. Currently pursuing a Master's in Computer Science at USC, I thrive
+            in building scalable, efficient solutions for complex problems.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>AI Chatbot Application</h3>
+                <p>Designed an AI-based FAQ chatbot using TensorFlow and NLP technologies for accurate query responses.</p>
+                <a href="https://github.com/SaiSudhaPanigrahi" target="_blank">GitHub Link</a>
+            </div>
+            <div class="project">
+                <h3>Bug Fixing Assistance Portal</h3>
+                <p>Developed a J2EE web-based forum to enable developers to seek guidance and collaborate on bug fixes.</p>
+                <a href="https://github.com/SaiSudhaPanigrahi" target="_blank">GitHub Link</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to connect with me via the following platforms:</p>
+        <ul>
+            <li><a href="https://linkedin.com/in/sai-sudha-panigrahi" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/SaiSudhaPanigrahi" target="_blank">GitHub</a></li>
+            <li><a href="mailto:saisudhapanigrahi@example.com">Email Me</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sai Sudha Panigrahi | <a href="https://github.com/SaiSudhaPanigrahi">GitHub</a></p>
+    </footer>
+</body>
+</html>
